@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "baseUrl": "src",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "jsx": "react",
@@ -8,8 +9,21 @@
     "jsxFragmentFactory": "Fragment",
     "moduleResolution": "node",
     "module": "esnext",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "plugins": [
+      { "transform": "typescript-transform-paths" }
+    ],
     "resolveJsonModule": true,
     "strict": true,
     "target": "es2015"
-  }
+  },
+  "exclude": [
+    "src/**/*.spec.js"
+  ],
+  "include": [
+    "src/**/*.js"
+  ]
 }
