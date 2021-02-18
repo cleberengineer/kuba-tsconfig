@@ -1,2 +1,2 @@
-# kuba-tsconfig
-TSConfig para ser extendido em seu @kuba/package, configurado para o ambiente @kuba
+# tsconfig
+TSConfig para ser extendido em seus projetos, configurado apenas as mudanças pontuais
