@@ -7,3 +7,11 @@ TSConfig base para ser estendido em seus projetos
 ```bash
 yarn add deMGoncalves/tsconfig --dev
 ```
+
+## Usage
+
+```json
+{
+  "extends": "tsconfig/tsconfig.json"
+}
+```
