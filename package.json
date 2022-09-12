@@ -1,4 +1,5 @@
 {
+  "main": "tsconfig.json",
   "name": "tsconfig",
   "version": "0.0.1"
 }
