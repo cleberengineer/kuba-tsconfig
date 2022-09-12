@@ -1,3 +1,3 @@
 # tsconfig
 
-TSConfig para ser estendido em seus projetos
+TSConfig base para ser estendido em seus projetos
